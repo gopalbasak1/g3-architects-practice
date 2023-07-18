@@ -75,7 +75,7 @@ nav li a{
 
 /* Main  */
 
-main{
+main, footer{
     max-width:1440px;
     margin:70px auto;
 }
@@ -251,6 +251,24 @@ main{
     }
 }
 
+/* Footer Section */
+
+footer {
+    height: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer p {
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
 
 
 /* Tablet Devices */
