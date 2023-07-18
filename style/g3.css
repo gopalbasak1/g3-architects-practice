@@ -1,7 +1,3 @@
-/* *{
-    padding:0;
-    margin:0;
-} */
 
 /* Share Style */
 body{
@@ -31,9 +27,9 @@ nav{
     align-items: center;
 }
 
-.nav-title{
-    color:#131313;
-    font-size: 2.8rem;
+.nav-title {
+    color: #131313;
+    font-size: 2.6rem;
     font-weight: 700;
 }
 
@@ -61,15 +57,40 @@ nav li a{
     margin:0 auto;
 }
 
-.banner-title{
+.banner-title {
     color: #131313;
-    font-size: 4rem;
+    font-size: 3.7rem;
     font-weight: 700;
 }
 
 .banner-description{
     color:  #727272;
-    font-size: 16px;
-    font-weight: 400;
+}
 
+.banner img{
+    margin-top:20px;
+    width:100%;
+}
+
+
+/* Responsive Media Query */
+/* Mobile Devices */
+@media screen and (max-width:576px){
+    header{
+        padding:20px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* Tablet Devices */
+@media screen and (min-width:576px) and (max-width:960px){
+    header{
+        padding:50px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
