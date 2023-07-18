@@ -147,10 +147,25 @@ main{
     margin-top: 5px;
 }
 
+/* Sponsor CSS */
 
+.sponsors{
+    text-align: center;
+}
+.sponsors-title{
+    font-size: 16px;
+}
+.sponsors-img-container{
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:40px;
+}
 
-
-
+.sponsors-img-container img{
+    width:165px;
+}
 
 
 
@@ -162,7 +177,7 @@ main{
         padding:20px;
     }
 
-    nav, .teams-container, .fact-card-container{
+    nav, .teams-container, .fact-card-container, .sponsors-img-container{
         flex-direction: column;
     }
 
@@ -187,7 +202,7 @@ main{
     header{
         padding:50px;
     }
-    nav, .teams-container{
+    nav, .teams-container, .sponsors-img-container{
         flex-direction: column;
     }
 }
